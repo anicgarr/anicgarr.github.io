@@ -63,6 +63,12 @@ nav a:hover{
 	
 
 }
+
+ul{
+	columns: 2;
+	font-weight: bold;
+
+}
 section{
 margin: 1em 0;
 padding-top:1em;
@@ -79,7 +85,7 @@ section ul{
 
 #container{
 	display:grid;
-	grid-template-columns:25% 25% 25% 25%;
+	grid-template-columns:repeat(3,1fr);
 	grid-row: 50px;
 	grid-gap: 3em;
 }
